@@ -14,5 +14,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> copper_spindle = ITEMS.register("copper_spindle", copper_spindle::new);
     public static final RegistryObject<Item> ingot = ITEMS.register("ingot", top.zhuerding.item.ingot::new);
     public static final RegistryObject<Item> lithium_rod = ITEMS.register("lithium_rod", lithium_rod::new);
-    public static final RegistryObject<Item> Boron_particle =ITEMS.register("boron_particle", top.zhuerding.item.boron_particle::new);
+    public static final RegistryObject<Item> boron_particle =ITEMS.register("boron_particle", top.zhuerding.item.boron_particle::new);
+    public static final RegistryObject<Item> aluminum_ingot =ITEMS.register("aluminum_ingot", top.zhuerding.item.aluminum_ingot::new);
 }
