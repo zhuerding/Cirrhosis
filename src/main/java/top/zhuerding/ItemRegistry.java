@@ -1,5 +1,6 @@
 package top.zhuerding;
 
+import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> boron_particle =ITEMS.register("boron_particle", top.zhuerding.item.boron_particle::new);
     public static final RegistryObject<Item> aluminum_ingot =ITEMS.register("aluminum_ingot", top.zhuerding.item.aluminum_ingot::new);
     public static final RegistryObject<Item> silica_fume =ITEMS.register("silica_fume", top.zhuerding.item.silica_fume::new);
-    public static final RegistryObject<Item> compressed_biscuit =ITEMS.register("compressed_biscuit", top.zhuerding.food.compressed_biscuit::new);
+    public static final RegistryObject<Item> compressed_biscuit = ITEMS.register("compressed_biscuit", top.zhuerding.food.compressed_biscuit::new);
 }
 
