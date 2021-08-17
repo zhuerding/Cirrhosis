@@ -1,11 +1,10 @@
-package top.zhuerding.item;
-
+package top.zhuerding.object.item;
 
 import net.minecraft.item.Item;
 import top.zhuerding.mods.group.ModGroup;
 
-public class copper_spindle extends Item {
-    public copper_spindle(){
+public class lithium_rod extends Item {
+    public lithium_rod(){
         super(new Properties().group(ModGroup.itemGroup));
     }
 }

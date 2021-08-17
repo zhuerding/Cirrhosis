@@ -1,4 +1,4 @@
-package top.zhuerding.food;
+package top.zhuerding.object.food;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;

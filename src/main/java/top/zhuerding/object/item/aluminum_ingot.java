@@ -1,10 +1,10 @@
-package top.zhuerding.item;
+package top.zhuerding.object.item;
 
 import net.minecraft.item.Item;
 import top.zhuerding.mods.group.ModGroup;
 
-public class rubber extends Item {
-    public rubber(){
+public class aluminum_ingot extends Item {
+    public aluminum_ingot(){
         super(new Properties().group(ModGroup.itemGroup));
     }
 }

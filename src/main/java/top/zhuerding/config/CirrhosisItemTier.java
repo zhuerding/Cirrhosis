@@ -1,4 +1,4 @@
-package top.zhuerding.combat;
+package top.zhuerding.config;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
@@ -6,7 +6,7 @@ import top.zhuerding.ItemRegistry;
 
 public enum CirrhosisItemTier implements IItemTier {
 
-    CIRRHOSIS_ITEM_TIER(3, 2000, 10.0F, 4.0F, 30);
+    BRONZE_ITEM_TIER(3, 2000, 10.0F, 4.0F, 30);
 
     private final int harvestLevel;
     private final int maxUses;

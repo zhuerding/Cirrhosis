@@ -1,10 +1,10 @@
-package top.zhuerding.item;
+package top.zhuerding.object.item;
 
 import net.minecraft.item.Item;
 import top.zhuerding.mods.group.ModGroup;
 
-public class silica_fume extends Item {
-    public silica_fume(){
+public class rubber extends Item {
+    public rubber(){
         super(new Properties().group(ModGroup.itemGroup));
     }
 }
