@@ -19,5 +19,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> aluminum_ingot =ITEMS.register("aluminum_ingot", top.zhuerding.item.aluminum_ingot::new);
     public static final RegistryObject<Item> silica_fume =ITEMS.register("silica_fume", top.zhuerding.item.silica_fume::new);
     public static final RegistryObject<Item> compressed_biscuit = ITEMS.register("compressed_biscuit", top.zhuerding.food.compressed_biscuit::new);
+    public static final RegistryObject<Item> bronze_sword = ITEMS.register("bronze_sword", top.zhuerding.combat.bronze_sword::new);
 }
 
