@@ -4,7 +4,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import top.zhuerding.ItemRegistry;
 
-public enum CirrhosisItemTier implements IItemTier {
+public enum CirrhosisItemTier_tools implements IItemTier {
 
     BRONZE_ITEM_TIER(3, 2000, 10.0F, 4.0F, 30);
 
@@ -14,7 +14,7 @@ public enum CirrhosisItemTier implements IItemTier {
     private final float attackDamage;
     private final int enchantability;
 
-    CirrhosisItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn) {
+    CirrhosisItemTier_tools(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn) {
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
         this.efficiency = efficiencyIn;

@@ -1,9 +1,13 @@
 package top.zhuerding;
 
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import top.zhuerding.config.CirrhosisItemTier_armor;
+import top.zhuerding.mods.group.ModGroup;
 import top.zhuerding.object.item.*;
 import top.zhuerding.object.item.lithium_rod;
 import top.zhuerding.mods.Utils;
@@ -20,5 +24,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> compressed_biscuit = ITEMS.register("compressed_biscuit", top.zhuerding.object.food.compressed_biscuit::new);
     public static final RegistryObject<Item> bronze_sword = ITEMS.register("bronze_sword", top.zhuerding.object.combat.bronze_sword::new);
     public static final RegistryObject<Item> bronze_pickaxe =ITEMS.register("bronze_pickaxe", top.zhuerding.object.tool.bronze_pickaxe::new);
+    public static final RegistryObject<Item> obsidianHelmet = ITEMS.register("obsidian_helmet", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.HEAD, (new Item.Properties()).group(ModGroup.itemGroup)));
+    public static final RegistryObject<Item> obsidianChestplate = ITEMS.register("obsidian_chestplate", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.CHEST, (new Item.Properties()).group(ModGroup.itemGroup)));
+    public static final RegistryObject<Item> obsidianLeggings = ITEMS.register("obsidian_leggings", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.LEGS, (new Item.Properties()).group(ModGroup.itemGroup)));
+    public static final RegistryObject<Item> obsidianBoots = ITEMS.register("obsidian_boots", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.FEET, (new Item.Properties()).group(ModGroup.itemGroup)));
 }
 
