@@ -1,8 +1,8 @@
 ------------------------------------------------------------------
 
-<h1> Textures temporarily used obsidian_block </h1>
+# Textures temporarily used obsidian_block
 
-####2021.08.18
+#### 2021.08.18
 Added more items
 
 #### 2021.08.17
