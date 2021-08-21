@@ -28,5 +28,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> obsidianChestplate = ITEMS.register("obsidian_chestplate", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.CHEST, (new Item.Properties()).group(ModGroup.itemGroup)));
     public static final RegistryObject<Item> obsidianLeggings = ITEMS.register("obsidian_leggings", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.LEGS, (new Item.Properties()).group(ModGroup.itemGroup)));
     public static final RegistryObject<Item> obsidianBoots = ITEMS.register("obsidian_boots", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.FEET, (new Item.Properties()).group(ModGroup.itemGroup)));
+    public static final RegistryObject<Item> uranium_nugget = ITEMS.register("uranium_nugget", top.zhuerding.object.item.uranium_nugget::new);
 }
 

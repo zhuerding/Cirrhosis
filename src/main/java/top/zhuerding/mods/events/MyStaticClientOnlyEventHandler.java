@@ -8,4 +8,5 @@ public class MyStaticClientOnlyEventHandler {
     public static void drawLast(RenderWorldLastEvent event) {
         System.out.println("Drawing!");
     }
+
 }
