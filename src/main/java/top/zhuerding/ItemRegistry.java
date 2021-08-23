@@ -2,6 +2,7 @@ package top.zhuerding;
 
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,5 +30,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> obsidianLeggings = ITEMS.register("obsidian_leggings", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.LEGS, (new Item.Properties()).group(ModGroup.itemGroup)));
     public static final RegistryObject<Item> obsidianBoots = ITEMS.register("obsidian_boots", () -> new ArmorItem(CirrhosisItemTier_armor.BRONZE, EquipmentSlotType.FEET, (new Item.Properties()).group(ModGroup.itemGroup)));
     public static final RegistryObject<Item> uranium_nugget = ITEMS.register("uranium_nugget", top.zhuerding.object.item.uranium_nugget::new);
+    public static final RegistryObject<Item> reinforced_stone = ITEMS.register("reinforced_stone", () -> new BlockItem(BlockRegistry.reinforced_stone.get(), new Item.Properties().group(ModGroup.itemGroup)));
+
 }
 
