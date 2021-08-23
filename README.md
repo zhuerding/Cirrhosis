@@ -2,6 +2,9 @@
 
 # Textures temporarily used obsidian_block
 
+### 2021.08.24
+Added our first block
+
 ### 2021.08.18
 Added more items
 
